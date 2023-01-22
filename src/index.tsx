@@ -7,9 +7,9 @@ const rootElement = document.getElementById("root");
 const root = createRoot(rootElement!);
 
 root.render(
-  <StrictMode>
+
     <div style={{ maxHeight: "800px" }}>
       <App />
     </div>
-  </StrictMode>
+
 );
